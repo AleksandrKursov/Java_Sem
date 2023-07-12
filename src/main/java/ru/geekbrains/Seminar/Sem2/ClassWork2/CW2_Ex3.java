@@ -20,7 +20,6 @@ public class CW2_Ex3 {
      */
     private static int task2(int n, Scanner scan) {
         int sum = 0;
-
         System.out.println("Input a sequence of numbers: ");
         int n1 = scan.nextInt();
         for (int i = 0; i < n - 1; i++) {
