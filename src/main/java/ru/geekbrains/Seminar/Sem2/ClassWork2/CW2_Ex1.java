@@ -16,7 +16,7 @@ public class CW2_Ex1 {
         int len = array.length - 1;
         for (int i = 0; i < array.length / 2; i++) {
             if (array[i] != array[len - i]) return false;
-//            len--; // не нкжно если оптимизоровать str 12: array[len - i}.
+//            len--; // не нужно если оптимизоровать str 18: array[len - i}.
         }
         return true;
     }
